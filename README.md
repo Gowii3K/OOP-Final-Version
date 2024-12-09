@@ -93,7 +93,7 @@ This ticketing system uses multi-threading to simulate simultaneous interactions
 
 ### Step 4: Start the Program
 
-- Once the Angular application is running and open in your browser, **press Enter** in the command-line interface (CLI) to start the system.
+- Once the Angular application is running and open the url: `http://localhost:4200` in  your browser, **press Enter** in the command-line interface (CLI) to start the system.
 
 ## Usage Instructions
 
