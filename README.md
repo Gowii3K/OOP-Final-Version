@@ -1,7 +1,7 @@
 # OOP-Final-Version Ticketing System
 
 ## Overview
-This program is a ticketing system that is built using Java Spring Boot and Angular. The Java CLI is setup inside the Spring Boot Application.
+This program is a ticketing system that is built using Java Spring Boot and Angular. The Java CLI is setup inside the Spring Boot Application. The Angular front end uses short polling to periodically fetch data from the Spring Boot backend
 
 This ticketing system uses multi-threading to simulate simultaneous interactions between vendors and customers buying tickets. It allows for managing ticket sales with adjustable parameters such as ticket release rates, customer retrieval rates, and more. Once set up, the system provides a front-end interface to monitor real-time ticket sales. The program will continue to run until all tickets are sold. The system will automatically stop when all tickets have been sold out.
 
