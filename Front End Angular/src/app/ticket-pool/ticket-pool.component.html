@@ -1,0 +1,27 @@
+<div *ngIf="ticketpool!=null">
+<h1>Tickets Sold By Vendors</h1>
+<ol>
+  <li *ngFor="let vendor of vendors"> Vendor Sold Ticket No:
+    {{ vendor.soldTickets }}
+  </li>
+</ol>
+
+<h1>Tickets Bought By Customers</h1>
+<ol>
+  <li *ngFor="let customer of customers">Customer Bought Ticket No:
+    {{ customer.boughtTickets }}
+  </li>
+</ol>
+
+
+
+<h1>Ticket Information</h1>
+
+<h2>Maximum Ticket Capacity: {{ ticketpool.maximumTicketCapacity }}</h2>
+
+  <li *ngFor="let ticket of ticketpool.availableTickets">
+    {{ ticket.id }}
+  </li>
+
+<h2>TicketPool: {{ticketpool.totalTickets}} Tickets Left</h2>
+</div>

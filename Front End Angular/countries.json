@@ -1,0 +1,7 @@
+{
+    "countries":[
+        {"id": 1, "code": "IN", "name": "India"},
+        {"id": 2, "code": "US", "name": "United States"}
+    ],
+    "users":[]
+}
